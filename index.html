@@ -459,5 +459,10 @@ button:hover::before {
             "retina_detect": true
         });
     </script>
+    <script> 
+    app.get("/ga", function (req, res) {
+  res.sendFile(path.join(__dirname, "pages/games.html"));
+})
+    </script>
 	   </body>   
 	   </html>
