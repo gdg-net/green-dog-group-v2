@@ -1,6 +1,6 @@
 self.__uv$config = {
-    prefix: '/static/tiw/',
-    bare:'https://bare.benrogo.net',
+    prefix: '/gdgisgood/',
+    bare:'https://vercelbareserver.vercel.app',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: '/static/uv/uv.handler.js',
