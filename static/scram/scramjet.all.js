@@ -10,7 +10,7 @@
                 function r(e) {
                     return "string" == typeof e && !!e.trim()
                 }
-
+// imagine seeing this :skull:
                 function n(e, n) {
                     var s, i, a, o, l = e.split(";").filter(r),
                         c = (s = l.shift(), i = "", a = "", (o = s.split("=")).length > 1 ? (i = o.shift(), a = o.join("=")) : a = s, {
