@@ -13,6 +13,11 @@
       <script src="js/app.js"></script>
       <script src="/scram/scramjet.all.js" defer></script>
       <style>
+               .title {
+            font-size: 2rem;
+            text-shadow: 0 0 15px #a020f0;
+        }
+
               .typewrite {
             color: #ff00ff;
             text-shadow: 0 0 15px #ff00ff;
@@ -24,11 +29,12 @@
          <img src="logo.gif" alt="logo">
          <title>gdg beta</title>
       </div>
-      <div id="content">
-             <span class="typewrite" data-period="2000" data-type='["Gdg.","No school.","Clean.", "Speedy.", "Privacy."]'>
-          <!-- idk why this is here but if it isnt it breaks on mobile, what the fuck -->
-         <h1></h1>
-         
+<div class="title">
+        <span style="cursor: text">
+            <span class="typewrite" data-period="2000" data-type='["Gdg.","No school.","clean", "fast asf", "privacy."]'>
+            </span>
+        </span>
+    </div>
          <form id="form">
            <input id="input" placeholder="Search the Web Freely..." />
          </form>
@@ -36,7 +42,7 @@
            <p id="sj-error"></p>
            <pre id="sj-error-code"></pre>
          </div>
-      </div>
+   
 
 <!-- scramjet yay -->
 <script src="/static/scram/scramjet.all.js"></script>
